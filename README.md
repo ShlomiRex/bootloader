@@ -1,10 +1,12 @@
 To create .img that you can use for VirtualBox / qemu:
 
 
-$ nasm bootloader.asm -f bin -o boot.img
+`$ nasm bootloader.asm -f bin -o boot.img`
 
 
 To run in qemu:
 
 
-$ qemu-system-x86_64 boot.img
+`$ qemu-system-x86_64 boot.i`
+
+Useful website to view all BIOS interrupts: [here](https://www.ctyme.com/intr/int.htm)
