@@ -3,7 +3,7 @@
 To create .img that you can use for VirtualBox / qemu:
 
 
-`$ nasm hello_world.asm -f bin -o boot.img`
+`$ nasm examples/hello_world.asm -f bin -o boot.img`
 
 
 To run in qemu:
