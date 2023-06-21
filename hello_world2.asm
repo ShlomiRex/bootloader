@@ -15,7 +15,7 @@ print:
 	call print_char
 	jmp .loop
 .done:
-	ret
+	ret	
 
 ; Print char at al
 print_char:
